@@ -7,8 +7,8 @@ development:
   adapter: postgresql
   database: sample_app
   host: localhost
-  username: "postgres"
-  password: "tpQ&ntr0!"
+  #username: "postgres"
+  #password: "tpQ&ntr0!"
   
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,8 +17,8 @@ test: &test
   adapter: postgresql
   database: sample_app_test
   host: localhost
-  username: "postgres"
-  password: "tpQ&ntr0!"
+  #username: "postgres"
+  #password: "tpQ&ntr0!"
 
 production:
   adapter: postgresql
